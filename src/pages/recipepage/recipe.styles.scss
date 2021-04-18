@@ -1,0 +1,74 @@
+.recipes {
+  width: 100%;
+  height: 94vh;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    padding: 0;
+    margin: 15px 0;
+    font-size: 48px;
+    color: #fff;
+  }
+  form {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .right-side {
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      input {
+        width: 100%;
+        padding: 6px 10px;
+        margin: 5px 0;
+        outline: none;
+        background-color: rgb(13, 17, 23);
+        color: #fff;
+        outline: none;
+        border: none;
+      }
+      textarea {
+        width: 100%;
+        padding: 6px 10px;
+        resize: none;
+        margin: 5px 0;
+        outline: none;
+        background-color: rgb(13, 17, 23);
+        color: #fff;
+        outline: none;
+        border: none;
+      }
+    }
+    .left-side {
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      textarea {
+        resize: none;
+        width: 100%;
+        padding: 6px 10px;
+        margin: 5px 0;
+        outline: none;
+        background-color: rgb(13, 17, 23);
+        color: #fff;
+        outline: none;
+        border: none;
+      }
+      button {
+        width: 100%;
+        margin: 5px 0;
+        padding: 8px 0;
+        text-align: center;
+        color: #000;
+        background-color: rgb(19, 189, 231);
+        outline: none;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
